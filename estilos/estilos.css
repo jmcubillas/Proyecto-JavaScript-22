@@ -1,0 +1,485 @@
+.propiedadesFooter, footer {
+  background: linear-gradient(to right, #ab9680, #c7b69f);
+  height: 200px;
+  width: 100%;
+  margin: 0px;
+  font-size: 20px; }
+
+body {
+  color: black;
+  font-family: "Yeseva One", cursive;
+  margin: 0;
+  background-color: #e3d7bf;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/*-----------------------------------------*/
+/*-----Header-------*/
+header {
+  margin: 0px;
+  height: 65px;
+  background-color: #c7b69f;
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+
+.logo {
+  float: left;
+  width: 55px;
+  margin: 5px; }
+
+.tituloEscondido {
+  display: none; }
+
+.dropdown-menu {
+  background-color: #c7b69f;
+  font-size: 20px; }
+
+.navbar {
+  background-color: #c7b69f;
+  font-size: 20px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black; }
+
+/*-----FinHeader-------*/
+/*-----Footer-------*/
+footer h2 {
+  margin: 0px;
+  padding-top: 25px;
+  text-align: center;
+  text-transform: uppercase; }
+footer nav ul {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  footer nav ul img {
+    width: 35px;
+    height: 35px; }
+
+/*-----FinFooter-------*/
+/*------------MAIN DEL INDEX------------------*/
+main {
+  padding-top: 65px;
+  min-height: 500px;
+  background-size: cover;
+  padding-bottom: 60px; }
+
+.contieneBG {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+  .contieneBG div {
+    text-align: center;
+    margin: 80px 80px 20px 80px;
+    padding-bottom: 50px; }
+
+.tituloIndex {
+  font-size: 65px;
+  padding-bottom: 35px; }
+
+h3 {
+  font-size: 35px;
+  margin-bottom: 35px; }
+
+p {
+  font-size: 25px; }
+
+.tituloSeccion {
+  text-align: center;
+  font-size: 65px;
+  margin-top: 60px;
+  padding: 20px 0px 15px;
+  text-transform: uppercase; }
+
+.carousel-inner img {
+  width: 100%;
+  height: 80%; }
+
+/*--------------------------------------------*/
+/*-------------MAIN DE PRODUCTOS---------------*/
+.prendasAcomodadas {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  align-items: start;
+  justify-items: center;
+  padding: 0px 20px 50px 20px; }
+  .prendasAcomodadas .descripcion {
+    position: relative;
+    display: inline-block; }
+    .prendasAcomodadas .descripcion .prenda {
+      display: block;
+      width: 100%; }
+    .prendasAcomodadas .descripcion .oculto {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 89%;
+      width: 100%;
+      opacity: 0;
+      transition: .3s;
+      background-color: #c7b69f;
+      border-radius: 2%; }
+      .prendasAcomodadas .descripcion .oculto .textoPrenda {
+        color: black;
+        position: absolute;
+        top: 10%;
+        text-align: center; }
+        .prendasAcomodadas .descripcion .oculto .textoPrenda h3 {
+          font-size: 22px; }
+        .prendasAcomodadas .descripcion .oculto .textoPrenda p {
+          font-size: 18px; }
+        .prendasAcomodadas .descripcion .oculto .textoPrenda ul {
+          font-size: 18px; }
+        .prendasAcomodadas .descripcion .oculto .textoPrenda .textoColores {
+          list-style-type: disc;
+          text-align: left;
+          padding-left: 35%; }
+
+.descPrendas {
+  padding: 0 15px 0 15px;
+  display: inline;
+  background: yellow; }
+
+.descripcion:hover .oculto {
+  opacity: 0.9; }
+
+.tituloCadaPrenda {
+  margin-left: 40px;
+  font-size: 45px; }
+
+/* .botonDeCompra{
+  margin: auto;
+  text-align: center;
+  margin-left: auto; 
+} */
+  .css-button-fully-rounded--grey {
+    min-width: 100px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #495057;
+    background: #495057;
+  }
+  .css-button-fully-rounded--grey:hover {
+    background: #fff;
+    color: #495057
+  }
+
+
+
+/*--------------------------------------------*/
+/*----------MAIN HTML TALLES------------------*/
+.mainTalles {
+  text-transform: uppercase; }
+
+.tablas {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  align-items: start;
+  justify-items: center;
+  padding-bottom: 50px; }
+  .tablas img {
+    border-radius: 7px; }
+
+.table {
+  color: black; }
+
+.verde {
+  color: #18cf72; }
+
+.naranja {
+  color: #f1b523; }
+
+.violeta {
+  color: #ab92d6; }
+
+.bordeaux {
+  color: #9d3050; }
+
+/*--------------------------------------------*/
+/*----------MAIN COMPRAR ------------*/
+.subTituloComprar {
+  font-size: 25px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: justify; }
+
+.servicios {
+  text-align: center;
+  color: black;
+  padding-bottom: 25px; }
+  .servicios img {
+    padding-bottom: 15px; }
+
+.entreTituloComprar {
+  font-size: 20px;
+  padding: 5px; }
+
+.descTituloComprar {
+  font-size: 18px;
+  text-decoration: none; }
+  .descTituloComprar a {
+    color: black; }
+
+/*--------------------------------------------*/
+/*------------MAIN HTML INFO--------------*/
+.contenedorDatos {
+  width: 60%;
+  text-align: justify;
+  padding-left: 8%;
+  padding-bottom: 40px; }
+  .contenedorDatos h4.subTitulos {
+    padding-left: 2%; }
+  .contenedorDatos .listasInfo {
+    list-style-type: disclosure-closed;
+    font-size: 18px; }
+  .contenedorDatos .subTitulos {
+    text-align: left; }
+  .contenedorDatos .entreTitulos {
+    padding: 8px 0px 10px 14px; }
+
+.pregunta {
+  width: 15%;
+  padding-left: 20%;
+  background-image: url(../imagenes/pregunta2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+h3.subTitulos {
+  font-size: 35px; }
+
+h4.subTitulos {
+  font-size: 30px; }
+
+.entreTitulos {
+  font-size: 20px; }
+
+.datosOcultos {
+  display: none;
+  width: 84%;
+  text-align: justify;
+  padding-left: 8%;
+  padding-bottom: 40px; }
+
+/*--------------------------------------------*/
+/*------------MAIN HTML CONTACTO--------------*/
+.content {
+  padding: 7rem 0; }
+
+.container {
+  margin-top: 70px; }
+
+.form-control {
+  border: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 0; }
+
+.form-control:active, .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: black; }
+
+.btn, .form-control {
+  height: 55px; }
+
+.btn:active, .btn:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+#message {
+  resize: vertical; }
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: black; }
+
+.btn-primary {
+  color: white;
+  background-color: #7e634e;
+  border-color: #7e634e;
+  border-radius: 10% !important; }
+
+.btn-primary:hover {
+  color: black;
+  background-color: #735945;
+  border-color: #735945; }
+
+p.mb-6 {
+  font-size: 20px; }
+
+.list-unstyled {
+  font-size: 18px; }
+
+.mapaContacto {
+  padding-left: 20px; }
+
+/*--------------------------------------------*/
+@media only screen and (max-width: 1080px) {
+  .botonera li {
+    display: inline-block;
+    font-size: 13px;
+    padding: 2px 6px 2px 6px;
+    border-radius: 4px;
+    margin-top: 5px; }
+
+  .textoCentradoBG {
+    margin-top: 60px; }
+
+  .tituloSeccion {
+    font-size: 60px; }
+
+  .encontranos {
+    font-size: 20px; }
+
+  .tituloIndex {
+    font-size: 60px; } }
+@media only screen and (max-width: 980px) {
+  .sinLogo {
+    display: none; }
+
+  .tituloPrincipal {
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 9px;
+    margin-left: 20%; }
+
+  .botonera li {
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px 4px 2px 4px;
+    margin-top: 10px; }
+
+  .tablas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+
+  .tituloCadaPrenda {
+    font-size: 30px; }
+
+  .prendasAcomodadas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+
+  .tituloSeccion {
+    font-size: 55px; }
+
+  .encontranos {
+    font-size: 15px;
+    padding-left: 5%; }
+
+  .tituloIndex {
+    font-size: 55px; }
+
+  .datosVisibles {
+    display: none; }
+
+  .datosOcultos {
+    display: block; } }
+@media only screen and (max-width: 780px) {
+  .dropdown-menu {
+    background-color: #c7b69f;
+    font-size: 17px; }
+
+  .navbar {
+    background-color: #c7b69f;
+    font-size: 17px; }
+
+  .tablas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; }
+
+  .prendasAcomodadas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+
+  .tituloSeccion {
+    margin-top: 50px;
+    font-size: 45px; }
+
+  .tituloIndex {
+    font-size: 45px; }
+
+  .textoCentradoBG p {
+    font-size: 18px; }
+
+  .textoCentradoBG h3 {
+    font-size: 25px; }
+
+  .divContacto {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+
+  .encontranos {
+    text-align: center; } }
+/*--------EN ESTA MEDIDA COLOCARIA UN MENU HAMBURGUESA EN LUGAR DE LOS BOTONES---------*/
+@media only screen and (max-width: 575px) {
+  .tituloEscondido {
+    display: block; }
+
+  .tituloIndex {
+    display: none; } }
+/*-----------------------MEDIDA DE IPHONE 6/7/8 ---------------------*/
+@media only screen and (max-width: 450px) {
+  .tituloPrincipal {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20%; }
+
+  .textoCentradoBG {
+    margin-top: 40px; }
+
+  .prendasAcomodadas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+
+  .tituloCadaPrenda {
+    font-size: 20px; }
+
+  footer h2 {
+    font-size: 16px; }
+
+  .tituloSeccion {
+    font-size: 25px; }
+
+  h3.subTitulos {
+    font-size: 20px; }
+
+  h4.subTitulos {
+    font-size: 18px; }
+
+  h4.entreTitulos {
+    font-size: 18px; } }
+
+/*# sourceMappingURL=estilos.css.map */
