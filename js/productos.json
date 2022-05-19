@@ -1,0 +1,33 @@
+[{
+    "id": "0",
+"nombreProducto": "Pant. de Gabardina",
+    "precio": "5900",
+"colorDisponible": "Verde Militar",
+"imagen": "imagenes/pantalongabardina.png",
+"idSelect":"pantGabardina",
+"idButton":"pantalonGabardina"
+}, {
+    "id": "1",
+"nombreProducto": "Pantalon Jogger",
+    "precio": "4900",
+"colorDisponible": "Gris Oscuro",
+"imagen": "imagenes/pantalonjogger.png",
+"idSelect":"pantJogger",
+"idButton":"pantalonJogger"
+},{
+    "id": "2",
+"nombreProducto": "Pantalon Palazo",
+    "precio": "3900",
+"colorDisponible": "Verde Militar",
+"imagen": "imagenes/pantalonpalazo.png",
+"idSelect":"pantPalazo",
+"idButton":"pantalonPalazo"
+},{
+    "id": "3",
+"nombreProducto": "Pantalon Engomado",
+    "precio": "4900",
+"colorDisponible": "Negro",
+"imagen": "imagenes/pantalonengomado.png",
+"idSelect":"pantEngomado",
+"idButton":"pantalonEngomado"
+}];
