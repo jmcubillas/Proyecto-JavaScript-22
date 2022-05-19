@@ -1,36 +1,5 @@
-let productos = [{
-		"id": "0",
-    "nombreProducto": "Pant. de Gabardina",
-		"precio": "5900",
-    "colorDisponible": "Verde Militar",
-    "imagen": "imagenes/pantalongabardina.png",
-    "idSelect":"pantGabardina",
-    "idButton":"pantalonGabardina"
-	}, {
-		"id": "1",
-    "nombreProducto": "Pantalon Jogger",
-		"precio": "4900",
-    "colorDisponible": "Gris Oscuro",
-    "imagen": "imagenes/pantalonjogger.png",
-    "idSelect":"pantJogger",
-    "idButton":"pantalonJogger"
-	},{
-		"id": "2",
-    "nombreProducto": "Pantalon Palazo",
-		"precio": "3900",
-    "colorDisponible": "Verde Militar",
-    "imagen": "imagenes/pantalonpalazo.png",
-    "idSelect":"pantPalazo",
-    "idButton":"pantalonPalazo"
-	},{
-		"id": "3",
-    "nombreProducto": "Pantalon Engomado",
-		"precio": "4900",
-    "colorDisponible": "Negro",
-    "imagen": "imagenes/pantalonengomado.png",
-    "idSelect":"pantEngomado",
-    "idButton":"pantalonEngomado"
-	}];
+let productos ;
+
 
 
 let tablaEditada = '';
@@ -46,7 +15,16 @@ let borrarRow = "";
 let arrayProductos = [];
 let precioFinal = 0;
 
-crearListaDeProductos ();
+
+fetch ("https://jmcubillas.github.io/Proyecto-JavaScript-22/js/productos.json")
+.then ((response) => response.json())
+.then(data=> {
+ productos = data;
+
+ console.log (productos);
+ crearListaDeProductos ();
+});
+
 recuperarCarrito ();
 
 
@@ -112,28 +90,40 @@ function construirCarritoGuardado (prodElegido){
 
 function recuperarCarrito (){
 
-let carrito = JSON.parse (localStorage.getItem ("carrito"));
+  let localLS = localStorage.getItem("carrito");
+  if (localLS != null && localLS != "") {
+  let carrito = JSON.parse(localLS);
 
-for (let i=0; i<carrito.length;i++){
+  for (let i=0; i<carrito.length;i++){
 
-  construirCarritoGuardado (carrito[i])
+    construirCarritoGuardado(carrito[i])
 
-}
-
-// console.log (carrito);
-}
-
+  }
+  }
+  }
 
 function finalizarCompra (){
 
+let costoTotal = 0 ;
+
+  for (let i=0; i<arrayProductos.length;i++){
+
+    let costoProducto = arrayProductos[i].cantidadSeleccionada*arrayProductos[i].precio;
+
+    costoTotal+=parseInt(costoProducto);
+
+  }
+  console.log(costoTotal);
+
    swal({
     title: "Compra realizada!",
-    text: "Que lo disfrutes",
+    text: "Tu Compra suma: $ " +costoTotal+".-",
     icon: "success",
     button: "Terminar",
   });
   limpiarCompra ();
- 
+
+
 }
 
 
