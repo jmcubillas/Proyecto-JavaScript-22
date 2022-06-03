@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Nuestro catálogo de productos"/>
-	<meta name="keywords" content="Venta, moda curvy, plus size, talles grandes, vestidos, pantalones, remeras, camperas"/>
-	<title>Productos - Live to Win</title>
+	<meta name="description" content="Ofrecemos indumentaria curvy y plus size, linda y canchera"/>
+	<meta name="keywords" content="Venta, moda curvy, plus size, talles grandes"/>
+	<meta name="copyright" content="Juan Manuel Cubillas" />
+	<title>Live to Win</title>
 	<link rel="icon" href="imagenes/icon.ico">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="estilos/normalize.css">
@@ -13,13 +14,12 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-	<script defer src="js/main.js"></script>
 </head>
 <body>
 	<header>
 		<nav class="navbar navbar-expand-sm navbar-light fixed-top">
 			<a class="navbar-brand" href="index.html" class="sinLogo"><img src="imagenes/ltw.png" alt="Live to Win" class="logo"></a>
-
+			
 			<h1 class="tituloEscondido">Live to Win</h1>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -28,59 +28,54 @@
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="index.html" target="_self">Inicio</a></li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">Productos</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="productos.html#pantalon" target="_self" data-ancla="pantalon">Pantalones</a>
-							<a class="dropdown-item" href="productos.html#remeron" target="_self" data-ancla="remeron">Remerones</a>
-							<a class="dropdown-item" href="productos.html#campera" target="_self" data-ancla="campera">Camperas</a>
-							<a class="dropdown-item" href="productos.html#jean" target="_self" data-ancla="jean">Jeans</a>
-							<a class="dropdown-item" href="productos.html#vestido" target="_self" data-ancla="vestido">Vestidos</a>
-						</div>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="talles.html" target="_self">Talles</a></li>
-					<li class="nav-item"><a class="nav-link" href="comprar.html" target="_self">Comprar</a></li>
-					<li class="nav-item"><a class="nav-link" href="info.html" target="_self" >Info</a></li>
-					<li class="nav-item"><a class="nav-link" href="contacto.html" target="_self" >Contacto</a></li>
+					<li class="nav-item"><a class="nav-link" href="secciones/productos.html" target="_self">Productos</a></li>
 				</ul>
 			
 		</nav>
+
 	</header>
-
-	<main>
-		<h2 class="tituloSeccion">Catálogo de prendas</h2>
-		<a id="pantalon"></a>
-		<h3 class="tituloCadaPrenda" >Pantalones</h3>
-		<div class="prendasAcomodadas" id="divGeneral">
 	
-			
-			
-
-		</div>
-
-		<div class="tablas">
-			<div class="tabla1"> <h3>Carrito de Compra</h3>
-
-				<table class="table-hover tabla tabla-1 text-center table-sm table">
-					<thead>
-						<tr>
-							<th scope="col" class="naranja"> ID </th>
-							<th scope="col" class="bordeaux">PRENDA</th>
-							<th scope="col" class="violeta">CANTIDAD</th>
-							<th scope="col" class="verde">PRECIO</th>
-						</tr>
-					</thead>
-					<tbody id="tablitaEditable" >
-                    </tbody>
-				</table>
-				<input id="finCompra" type="button" value="Finalizar Compra" class="css-button-fully-rounded--grey" onclick="finalizarCompra()" disabled>
-
-				<input id="borrarCompra" type="button" value="Borrar Carrito" class="css-button-fully-rounded--grey" onclick="vaciarCarrito()" disabled>
-
+	<main class="mainIndex">
+		<div class="contieneBG">
+	    	<div class="textoCentradoBG">		  				  	
+				<h2 class="tituloIndex">..::Live to Win::..</h2>
+				<h3>INDUMENTARIA CURVY Y PLUS SIZE</h3>
+				<p>Buscamos ofrecerte ropa linda y canchera en talles plus size, para que elijas lo que te gusta ponerte realmente, no eso que tuviste que comprar porque no había otra cosa. Que tu corporalidad no te condicione, si te gusta...¡USALO!</p>
 			</div>
-        </div>
-	</main>
+		</div>
+		<div id="demo" class="carousel slide" data-ride="carousel">
 
+			<!-- Indicators -->
+			<ul class="carousel-indicators">
+			  <li data-target="#demo" data-slide-to="0" class="active"></li>
+			  <li data-target="#demo" data-slide-to="1"></li>
+			  <li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+			
+			<!-- The slideshow -->
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="imagenes/atuendoscollage.jpg" alt="Atuendos" width="1100" height="500">
+			  </div>
+			  <div class="carousel-item">
+				<img src="imagenes/vestidocollage.jpg" alt="Vestidos" width="1100" height="500">
+			  </div>
+			  <div class="carousel-item">
+				<img src="imagenes/mixcollage.jpg" alt="Prendas" width="1100" height="500">
+			  </div>
+			</div>
+			
+			<!-- Left and right controls -->
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			  <span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+			  <span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+		  
+	</main>
+	
 	<footer>
 		<h2>seguinos en nuestras redes: </h2>
 		<nav>
@@ -91,9 +86,9 @@
 
 				<li class="logoRedesPos"><a href="https://www.facebook.com/livetowin.clothes" target="_blank" data-toggle="tooltip" title="@LivetoWin.clothes "><img src="imagenes/facebooklogo.png"  alt="Facebook.com" class="logoRedes"></a></li>
 
-				<li class="logoRedesPos"><a href="https://www.instagram.com/livetowin.clothes/" target="_blank" data-toggle="tooltip" title="livetowin.clothes "><img src="imagenes/instagramlogo.png"  alt="Instagram.com" class="logoRedes"></a></li>
+				<li class="logoRedesPos"><a href="https://www.instagram.com/livetowin.clothes/" target="_blank"data-toggle="tooltip" title="livetowin.clothes "><img src="imagenes/instagramlogo.png"  alt="Instagram.com" class="logoRedes"></a></li>
 
-				<li class="logoRedesPos"><a href="https://tiktok.com/search?q=livetowinclothes&t=1631678703982" target="_blank" data-toggle="tooltip" title="livetowinclothes "><img src="imagenes/tiktoklogo.png"  alt="Tiktok.com" class="logoRedes"></a></li>
+				<li class="logoRedesPos"><a href="https://tiktok.com/search?q=livetowinclothes&t=1631678703982" target="_blank"data-toggle="tooltip" title="livetowinclothes "><img src="imagenes/tiktoklogo.png"  alt="Tiktok.com" class="logoRedes"></a></li>
 				
 			</ul>
 		</nav>
@@ -106,6 +101,5 @@
 		  $('[data-toggle="tooltip"]').tooltip();   
 		});
 	</script>
-	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

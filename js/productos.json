@@ -3,7 +3,7 @@
 "nombreProducto": "Pant. de Gabardina",
     "precio": "5900",
 "colorDisponible": "Verde Militar",
-"imagen": "imagenes/pantalongabardina.png",
+"imagen": "../imagenes/pantalongabardina.png",
 "idSelect":"pantGabardina",
 "idButton":"pantalonGabardina"
 }, {
@@ -11,7 +11,7 @@
 "nombreProducto": "Pantalon Jogger",
     "precio": "4900",
 "colorDisponible": "Gris Oscuro",
-"imagen": "imagenes/pantalonjogger.png",
+"imagen": "../imagenes/pantalonjogger.png",
 "idSelect":"pantJogger",
 "idButton":"pantalonJogger"
 },{
@@ -19,7 +19,7 @@
 "nombreProducto": "Pantalon Palazo",
     "precio": "3900",
 "colorDisponible": "Verde Militar",
-"imagen": "imagenes/pantalonpalazo.png",
+"imagen": "../imagenes/pantalonpalazo.png",
 "idSelect":"pantPalazo",
 "idButton":"pantalonPalazo"
 },{
@@ -27,7 +27,7 @@
 "nombreProducto": "Pantalon Engomado",
     "precio": "4900",
 "colorDisponible": "Negro",
-"imagen": "imagenes/pantalonengomado.png",
+"imagen": "../imagenes/pantalonengomado.png",
 "idSelect":"pantEngomado",
 "idButton":"pantalonEngomado"
 },{
@@ -35,7 +35,7 @@
 "nombreProducto": "Remera de Lino",
     "precio": "3290",
 "colorDisponible": "Negro",
-"imagen": "imagenes/remeralino.png",
+"imagen": "../imagenes/remeralino.png",
 "idSelect":"remLino",
 "idButton":"remeraLino"
 },{
@@ -43,7 +43,7 @@
 "nombreProducto": "Musculosa",
     "precio": "2490",
 "colorDisponible": "Negro",
-"imagen": "imagenes/remeramusculosa.png",
+"imagen": "../imagenes/remeramusculosa.png",
 "idSelect":"remMusculosa",
 "idButton":"remeraMusculosa"
 },{
@@ -51,7 +51,7 @@
 "nombreProducto": "Remera Manga Corta",
     "precio": "3190",
 "colorDisponible": "Negro",
-"imagen": "imagenes/remeramangacorta.png",
+"imagen": "../imagenes/remeramangacorta.png",
 "idSelect":"remCorta",
 "idButton":"remeraCorta"
 },{
@@ -59,7 +59,7 @@
 "nombreProducto": "Remera con Strass",
     "precio": "1890",
 "colorDisponible": "Negro",
-"imagen": "imagenes/remeraconstrass.png",
+"imagen": "../imagenes/remeraconstrass.png",
 "idSelect":"remStrass",
 "idButton":"remeraStrass"
 },{
@@ -67,7 +67,7 @@
 "nombreProducto": "Blazer Doble Crepe",
     "precio": "8990",
 "colorDisponible": "Negro",
-"imagen": "imagenes/camperablazer.png",
+"imagen": "../imagenes/camperablazer.png",
 "idSelect":"campBlazer",
 "idButton":"camperaBlazer"
 },{
@@ -75,7 +75,7 @@
 "nombreProducto": "Campera de Cuero",
     "precio": "7990",
 "colorDisponible": "Negro",
-"imagen": "imagenes/camperacuero.png",
+"imagen": "../imagenes/camperacuero.png",
 "idSelect":"campCuero",
 "idButton":"camperaCuero"
 },{
@@ -83,7 +83,7 @@
 "nombreProducto": "Campera de Jean",
     "precio": "6990",
 "colorDisponible": "Negro",
-"imagen": "imagenes/camperajean.png",
+"imagen": "../imagenes/camperajean.png",
 "idSelect":"campJean",
 "idButton":"camperaJean"
 },{
@@ -91,7 +91,7 @@
 "nombreProducto": "Campera con Tachas",
     "precio": "7990",
 "colorDisponible": "Negro",
-"imagen": "imagenes/camperatachas.png",
+"imagen": "../imagenes/camperatachas.png",
 "idSelect":"campTachas",
 "idButton":"camperaTachas"
 }]
