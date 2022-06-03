@@ -33,7 +33,7 @@
 },{
     "id": "4",
 "nombreProducto": "Remera de Lino",
-    "precio": "4900",
+    "precio": "3290",
 "colorDisponible": "Negro",
 "imagen": "imagenes/remeralino.png",
 "idSelect":"remLino",
@@ -41,7 +41,7 @@
 },{
     "id": "5",
 "nombreProducto": "Musculosa",
-    "precio": "4900",
+    "precio": "2490",
 "colorDisponible": "Negro",
 "imagen": "imagenes/remeramusculosa.png",
 "idSelect":"remMusculosa",
@@ -49,7 +49,7 @@
 },{
     "id": "6",
 "nombreProducto": "Remera Manga Corta",
-    "precio": "4900",
+    "precio": "3190",
 "colorDisponible": "Negro",
 "imagen": "imagenes/remeramangacorta.png",
 "idSelect":"remCorta",
@@ -57,7 +57,7 @@
 },{
     "id": "7",
 "nombreProducto": "Remera con Strass",
-    "precio": "4900",
+    "precio": "1890",
 "colorDisponible": "Negro",
 "imagen": "imagenes/remeraconstrass.png",
 "idSelect":"remStrass",
@@ -65,7 +65,7 @@
 },{
     "id": "8",
 "nombreProducto": "Blazer Doble Crepe",
-    "precio": "4900",
+    "precio": "8990",
 "colorDisponible": "Negro",
 "imagen": "imagenes/camperablazer.png",
 "idSelect":"campBlazer",
@@ -73,7 +73,7 @@
 },{
     "id": "9",
 "nombreProducto": "Campera de Cuero",
-    "precio": "4900",
+    "precio": "7990",
 "colorDisponible": "Negro",
 "imagen": "imagenes/camperacuero.png",
 "idSelect":"campCuero",
@@ -81,7 +81,7 @@
 },{
     "id": "10",
 "nombreProducto": "Campera de Jean",
-    "precio": "4900",
+    "precio": "6990",
 "colorDisponible": "Negro",
 "imagen": "imagenes/camperajean.png",
 "idSelect":"campJean",
@@ -89,7 +89,7 @@
 },{
     "id": "11",
 "nombreProducto": "Campera con Tachas",
-    "precio": "4900",
+    "precio": "7990",
 "colorDisponible": "Negro",
 "imagen": "imagenes/camperatachas.png",
 "idSelect":"campTachas",
