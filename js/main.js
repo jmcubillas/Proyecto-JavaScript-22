@@ -1,5 +1,5 @@
 let productos;
-let tablaEditada = '';
+// let tablaEditada = '';
 // let productoSeleccionadoNombre ='';
 // let productoSeleccionadoColor ='';
 // let productoSeleccionadoPrecio ='';
