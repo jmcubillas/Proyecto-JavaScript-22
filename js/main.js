@@ -1,11 +1,8 @@
-let productos ;
-
-
-
+let productos;
 let tablaEditada = '';
-let productoSeleccionadoNombre ='';
-let productoSeleccionadoColor ='';
-let productoSeleccionadoPrecio ='';
+// let productoSeleccionadoNombre ='';
+// let productoSeleccionadoColor ='';
+// let productoSeleccionadoPrecio ='';
 var elements = document.getElementsByClassName("botonAgregarAlCarrito");
 var cantidadProd = '';
 var productosSeleccionados = "";

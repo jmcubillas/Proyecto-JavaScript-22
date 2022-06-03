@@ -30,4 +30,68 @@
 "imagen": "imagenes/pantalonengomado.png",
 "idSelect":"pantEngomado",
 "idButton":"pantalonEngomado"
+},{
+    "id": "4",
+"nombreProducto": "Remera de Lino",
+    "precio": "4900",
+"colorDisponible": "Negro",
+"imagen": "imagenes/remeralino.png",
+"idSelect":"remLino",
+"idButton":"remeraLino"
+},{
+    "id": "5",
+"nombreProducto": "Musculosa",
+    "precio": "4900",
+"colorDisponible": "Negro",
+"imagen": "imagenes/remeramusculosa.png",
+"idSelect":"remMusculosa",
+"idButton":"remeraMusculosa"
+},{
+    "id": "6",
+"nombreProducto": "Remera Manga Corta",
+    "precio": "4900",
+"colorDisponible": "Negro",
+"imagen": "imagenes/remeramangacorta.png",
+"idSelect":"remCorta",
+"idButton":"remeraCorta"
+},{
+    "id": "7",
+"nombreProducto": "Remera con Strass",
+    "precio": "4900",
+"colorDisponible": "Negro",
+"imagen": "imagenes/remeraconstrass.png",
+"idSelect":"remStrass",
+"idButton":"remeraStrass"
+},{
+    "id": "8",
+"nombreProducto": "Blazer Doble Crepe",
+    "precio": "4900",
+"colorDisponible": "Negro",
+"imagen": "imagenes/camperablazer.png",
+"idSelect":"campBlazer",
+"idButton":"camperaBlazer"
+},{
+    "id": "9",
+"nombreProducto": "Campera de Cuero",
+    "precio": "4900",
+"colorDisponible": "Negro",
+"imagen": "imagenes/camperacuero.png",
+"idSelect":"campCuero",
+"idButton":"camperaCuero"
+},{
+    "id": "10",
+"nombreProducto": "Campera de Jean",
+    "precio": "4900",
+"colorDisponible": "Negro",
+"imagen": "imagenes/camperajean.png",
+"idSelect":"campJean",
+"idButton":"camperaJean"
+},{
+    "id": "11",
+"nombreProducto": "Campera con Tachas",
+    "precio": "4900",
+"colorDisponible": "Negro",
+"imagen": "imagenes/camperatachas.png",
+"idSelect":"campTachas",
+"idButton":"camperaTachas"
 }]
