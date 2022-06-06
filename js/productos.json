@@ -34,7 +34,7 @@
     "id": "4",
 "nombreProducto": "Remera de Lino",
     "precio": "3290",
-"colorDisponible": "Negro",
+"colorDisponible": "Blanco",
 "imagen": "../imagenes/remeralino.png",
 "idSelect":"remLino",
 "idButton":"remeraLino"
@@ -42,7 +42,7 @@
     "id": "5",
 "nombreProducto": "Musculosa",
     "precio": "2490",
-"colorDisponible": "Negro",
+"colorDisponible": "Celeste",
 "imagen": "../imagenes/remeramusculosa.png",
 "idSelect":"remMusculosa",
 "idButton":"remeraMusculosa"
@@ -50,7 +50,7 @@
     "id": "6",
 "nombreProducto": "Remera Manga Corta",
     "precio": "3190",
-"colorDisponible": "Negro",
+"colorDisponible": "Balco",
 "imagen": "../imagenes/remeramangacorta.png",
 "idSelect":"remCorta",
 "idButton":"remeraCorta"
@@ -82,7 +82,7 @@
     "id": "10",
 "nombreProducto": "Campera de Jean",
     "precio": "6990",
-"colorDisponible": "Negro",
+"colorDisponible": "Azul",
 "imagen": "../imagenes/camperajean.png",
 "idSelect":"campJean",
 "idButton":"camperaJean"
@@ -90,7 +90,7 @@
     "id": "11",
 "nombreProducto": "Campera con Tachas",
     "precio": "7990",
-"colorDisponible": "Negro",
+"colorDisponible": "Gris Oscuro",
 "imagen": "../imagenes/camperatachas.png",
 "idSelect":"campTachas",
 "idButton":"camperaTachas"

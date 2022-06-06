@@ -1,8 +1,4 @@
 let productos;
-// let tablaEditada = '';
-// let productoSeleccionadoNombre ='';
-// let productoSeleccionadoColor ='';
-// let productoSeleccionadoPrecio ='';
 var elements = document.getElementsByClassName("botonAgregarAlCarrito");
 var cantidadProd = '';
 var productosSeleccionados = "";
@@ -38,34 +34,25 @@ function borrarProducto (id){
 function crearListaDeProductos (){
 
   for (let i=0; i<productos.length;i++){
-
     let producto = productos[i];
     divGeneral.innerHTML += "<div class='descripcion' ><img src='"+producto.imagen+"'  class='prenda rounded'><div class='oculto'> <div class='textoPrenda'> <h3>"+producto.nombreProducto+"</h3> <p class='descPrendas'> $"+producto.precio+" en efectivo retirando en el showroom</p> <p>Color disponibles:</p> <ul class='textoColores'> <li>"+producto.colorDisponible+" </li> </ul> </div> </div> <button name='button' class='css-button-fully-rounded--grey botonAgregarAlCarrito' id='"+producto.idButton+"' onclick='agregarProductoAlCarrito("+producto.id+")'>Agregar Al Carrito</button> <select class='css-button-fully-rounded--grey selectProductos' id='"+producto.idSelect+"'> <option> 1 </option> <option> 2 </option> <option> 3 </option> </select> </div> ";
-
   }
+
 }
 
 function agregarProductoAlCarrito (id){
 
-let prodElegido = productos[id];
-
+        let prodElegido = productos[id];
         productosSeleccionados = document.getElementById(prodElegido.idSelect);
-        productosSeleccionados2 = productosSeleccionados.value;
-
-  
+        productosSeleccionados2 = productosSeleccionados.value;  
         cantidadProd =  productosSeleccionados2;
-        
         tablitaEditable.innerHTML += "<tr id = 'tr-" +contadorID+"'> <td>"+contadorID+" </td>  <td>"+prodElegido.nombreProducto+ "</td> <td>"+cantidadProd+"</td> <td>$ "+(prodElegido.precio*cantidadProd)+".-</td> <td> <button onclick=borrarProducto('tr-" + contadorID +"')> X </button> </td> </tr>";
         contadorID ++;
         prodElegido.cantidadSeleccionada = cantidadProd;
-
         arrayProductos.push (prodElegido);
-
         localStorage.setItem ("carrito",JSON.stringify(arrayProductos));
-
         document.getElementById("finCompra").disabled = false;
         document.getElementById("borrarCompra").disabled = false;
-
 
 }
 
@@ -73,14 +60,14 @@ function construirCarritoGuardado (prodElegido){
 
           tablitaEditable.innerHTML += "<tr id = 'tr-" +contadorID+"'> <td>"+contadorID+" </td>  <td>"+prodElegido.nombreProducto+ "</td> <td>"+prodElegido.cantidadSeleccionada+"</td> <td>$ "+(prodElegido.precio*prodElegido.cantidadSeleccionada)+".-</td> <td> <button onclick=borrarProducto('tr-" + contadorID +"')> X </button> </td> </tr>";
           contadorID ++;
-          arrayProductos.push (prodElegido);
-  
+          arrayProductos.push (prodElegido);  
           localStorage.setItem ("carrito",JSON.stringify(arrayProductos));
 
           if (arrayProductos.length>0){
 
             document.getElementById("finCompra").disabled = false;
             document.getElementById("borrarCompra").disabled = false;
+
           }
   
   }
@@ -88,6 +75,7 @@ function construirCarritoGuardado (prodElegido){
 function recuperarCarrito (){
 
   let localLS = localStorage.getItem("carrito");
+ 
   if (localLS != null && localLS != "") {
   let carrito = JSON.parse(localLS);
 
@@ -120,9 +108,7 @@ let costoTotal = 0 ;
   });
   limpiarCompra ();
 
-
 }
-
 
 function vaciarCarrito (){
 
