@@ -50,7 +50,7 @@
     "id": "6",
 "nombreProducto": "Remera Manga Corta",
     "precio": "3190",
-"colorDisponible": "Balco",
+"colorDisponible": "Blanco",
 "imagen": "../imagenes/remeramangacorta.png",
 "idSelect":"remCorta",
 "idButton":"remeraCorta"
