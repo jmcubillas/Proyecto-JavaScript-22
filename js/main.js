@@ -21,6 +21,7 @@ fetch ("https://jmcubillas.github.io/Proyecto-JavaScript-22/js/productos.json")
 recuperarCarrito ();
 
 
+// Borrar producto en particular.
 
 function borrarProducto (id){
 
@@ -31,6 +32,8 @@ function borrarProducto (id){
 
 }
 
+// Agregar lista de productos.
+
 function crearListaDeProductos (){
 
   for (let i=0; i<productos.length;i++){
@@ -39,6 +42,9 @@ function crearListaDeProductos (){
   }
 
 }
+
+
+// Agregar producto en particular.
 
 function agregarProductoAlCarrito (id){
 
@@ -56,6 +62,8 @@ function agregarProductoAlCarrito (id){
 
 }
 
+// Llenado de datos a la tabla.
+
 function construirCarritoGuardado (prodElegido){          
 
           tablitaEditable.innerHTML += "<tr id = 'tr-" +contadorID+"'> <td>"+contadorID+" </td>  <td>"+prodElegido.nombreProducto+ "</td> <td>"+prodElegido.cantidadSeleccionada+"</td> <td>$ "+(prodElegido.precio*prodElegido.cantidadSeleccionada)+".-</td> <td> <button onclick=borrarProducto('tr-" + contadorID +"')> X </button> </td> </tr>";
@@ -72,6 +80,8 @@ function construirCarritoGuardado (prodElegido){
   
   }
 
+// Al actualizar la página, se recuperan los datos de la tabla. 
+
 function recuperarCarrito (){
 
   let localLS = localStorage.getItem("carrito");
@@ -86,6 +96,8 @@ function recuperarCarrito (){
   }
   }
   }
+
+// Opción de finalizar la compra.
 
 function finalizarCompra (){
 
@@ -109,6 +121,8 @@ let costoTotal = 0 ;
   limpiarCompra ();
 
 }
+
+// Opción de borrar carrito.
 
 function vaciarCarrito (){
 
@@ -135,6 +149,8 @@ function vaciarCarrito (){
   });
  
 }
+
+// Borrado de tabla.
 
 function limpiarCompra (){
 
